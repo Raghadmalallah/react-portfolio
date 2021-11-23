@@ -24,20 +24,124 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <meta name="description" content="Raghad Malallah's demo portfolio for bootcamp.">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+      </style>
+    <link rel="stylesheet" href="./assets/css/reset.css" /> 
+    <link rel="stylesheet" href="./assets/css/style.css" /> 
+    <script
+    src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-search-pseudo-elements>
+    </script>
+    <title>raghad-malallah</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <!-- Navigation & Main Header -->
+      <header>
+          <h1>Raghad Malallah</h1>
+          <nav>
+              <a href="#about">About Me</a>
+              <a href="#work">My Work</a>
+              <a href="#contact">Contact Me</a>  
+              <a href="./assets/resume/Raghad+Malallah_Resume.pdf">Resume</a>
+              
+          </nav>
+      </header>
+  
+      <!-- Hero -->
+      <section class="hero-banner">
+        <img src="./assets/images/Image from iOS.jpg"/>
+        <div class=codes>
+          <p><code> I speak Codes! </code> </p>
+        </div>
+      </section>
+  
+    <main class="page-wrapper">
+      <!-- About Me -->
+      <section class="page-section" id="about">
+        <h2>About Me</h2>
+        <div>
+          <p>
+            Hey there! My name is Raghad Malallah. and I am Creative graphic designer/ Web Developer with innovative ideas and a unique approach to visuals.
+           <br> Experienced UI developer trained in HTML5, CSS3, Javascript, and Bootstrap.
+           <br> Experienced UX design trained with Adobe Creative Suite. .
+          </p>
+      </section> 
+  
+      <!-- Portfolio Grid -->
+      <section class="page-section" id="work">
+        <h2>My Work</h2>
+        <div class="grid-container">
+          <!-- Feature Project #1 -->
+          <a href="https://ericaleesnyder.github.io/meal-search-engine/" class="grid-item p-image-card"> 
+            <div>
+              <h3>Rapid Recipes</h3>
+              <span>CSS, JS, APIs</span>
+            </div>
+          </a>
+          <!-- Project #2 -->
+          <a href="https://raghadmalallah.github.io/marketing-company/" class="grid-item h-image-card">
+            <div>
+              <h3>Horiseon</h3>
+              <span>HTML, CSS</span>
+            </div>
+          </a>
+          <!-- Project #3 -->
+          <a href="https://raghadmalallah.github.io/code-quiz/" class="grid-item c-image-card">
+            <div>
+              <h3>Code Quiz</h3>
+                        </div>
+          </a>
+           <!-- Project #4 -->
+          <a href="https://raghadmalallah.github.io/password-generator/" class="grid-item pg-image-card">
+            <div>
+              <h3>Password Generator</h3>
+                        </div>
+          </a>
+           <!-- Project #5 -->
+          <a href="https://raghadmalallah.github.io/weather-dashboard/" class="grid-item w-image-card">
+            <div>
+              <h3>Weather Dashboard</h3>
+            </div>
+          </a>
+          <!-- Project #6 -->
+          <a href="https://raghadmalallah.github.io/work-day-scheduler/" class="grid-item wd-image-card">
+            <div>
+              <h3>Work Day Scheduler</h3>
+                        </div>
+          </a>
+          <div>
+            <iframe src="https://www.youtube.com/embed/s5bnjIDQVaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="grid-item"></iframe>
+        </div>
+          <div>
+            <iframe src="https://www.youtube.com/embed/9xLIQsZUAyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="grid-item"></iframe> 
+        </div>
+        </div>
+      </section>
+      
+      
+      <!-- Contact -->
+      <section class="page-section contact" id="contact">
+        <h2>Contact Me</h2>
+        <div>
+          <address>
+            <!-- Github -->
+              <a href="https://github.com/Raghadmalallah" target="_blank">
+                  <i class="fab fa-github"></i>
+                  GitHub
+              </a>
+               <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/raghad-malallah" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                  Linkedin
+              </a>
+               <!-- My Email -->
+               <a href="mailto:raghadmalallah@gmail.com.com">Email Me</a>
+             
+            </a>
+          </address>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
